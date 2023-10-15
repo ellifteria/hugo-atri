@@ -1,16 +1,15 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Book"
+name = "Het Hert"
 license = "MIT"
-licenselink = "https://github.com/alex-shpak/hugo-book/blob/master/LICENSE"
-description = "Hugo documentation theme as simple as plain book"
-homepage = "https://github.com/alex-shpak/hugo-book"
-demosite = "https://hugo-book-demo.netlify.app"
+licenselink = "https://github.com/ellifteria/hugo-het-hert/blob/master/LICENSE"
+description = "An extension of Hugo Book by Alex Shpak with references and backlinks"
+homepage = "https://github.com/ellifteria/hugo-het-hert"
 tags = ["responsive", "clean", "documentation", "docs", "flexbox", "search", "mobile", "multilingual", "disqus"]
 features = []
 min_version = "0.68"
 
 [author]
-  name = "Alex Shpak"
-  homepage = "https://github.com/alex-shpak/"
+  name = "Elli Beres"
+  homepage = "https://github.com/ellifteria/"
