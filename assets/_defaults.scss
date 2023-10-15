@@ -30,15 +30,14 @@ $hint-colors: (
 
 // Themes
 @mixin theme-light {
-  --gray-100: #f8f9fa;
+  --gray-100: #fdfdfd;
   --gray-200: #e9ecef;
   --gray-500: #adb5bd;
 
-  --color-link: #008080;
-  --color-visited-link: #008080; //#8440f1;
-  --color-link-bg: #9FE2BF;
+  --color-link: #006767;
+  --color-link-hover: #009a9a;
 
-  --body-background: white;
+  --body-background: #f0f0f0;
   --body-font-color: black;
 
   --icon-filter: none;
@@ -54,8 +53,7 @@ $hint-colors: (
   --gray-500: rgba(255, 255, 255, 0.5);
 
   --color-link: #84ffbb;
-  --color-visited-link: #84ffbb; //#b88dff;
-  --color-link-bg: #9FE2BF;
+  --color-link-hover: #9FE2BF;
 
   --body-background: #343a40;
   --body-font-color: #e9ecef;

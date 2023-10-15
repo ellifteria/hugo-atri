@@ -35,7 +35,8 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  background-color: var(--color-link-bg);
+  // background-color: var(--color-link-bg);
+  color: var(--color-link-hover);
   font-weight: bold;
 }
 
@@ -63,7 +64,7 @@ aside nav ul {
 
   a:hover {
     opacity: 0.5;
-    background-color: var(--gray-200);
+    // background-color: var(--gray-200);
     font-weight: normal;
   }
 
