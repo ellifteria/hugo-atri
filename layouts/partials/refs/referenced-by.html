@@ -1,0 +1,16 @@
+{{ $parentPage := . }}
+<h3>This page is referenced by:</h3>
+<ul>
+{{ range .Site.AllPages }}
+  {{ $page := . }}
+  {{ range .Params.linkedArticles}}
+  {{ $linkedPage := $parentPage.GetPage .}}
+    {{ if eq $linkedPage $parentPage }}
+  <li>
+<a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+  </li>
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+</ul>

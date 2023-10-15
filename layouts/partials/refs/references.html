@@ -1,0 +1,13 @@
+{{ $parentPage := . }}
+
+<h3>This page references:</h3>
+<ul>
+{{ range .Params.linkedArticles }}
+{{ $ref := ref $parentPage . }}
+{{ $page := $parentPage.GetPage . }}    
+  <li>
+<a href="{{ $ref }}">{{ $page.Title }}</a>
+  </li>
+{{ end }}
+
+</ul>
