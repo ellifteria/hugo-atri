@@ -1,0 +1,14 @@
+- id: Search
+  translation: Αναζήτηση 
+
+- id: Edit this page
+  translation: Επεξεργαστείτε αυτήν τη σελίδα
+
+- id: Last modified by
+  translation: Τελευταία τροποποίηση από
+
+- id: Expand
+  translation: Επεκτείνουν
+
+- id: bookSearchConfig
+  translation: '{ cache: true }'
